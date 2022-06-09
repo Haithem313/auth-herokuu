@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f9f7325-9f05-4f64-b6cd-97ff58906241" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/AuthenticationApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/config/AppProperties$Auth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/config/AppProperties$OAuth2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/config/AppProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/config/CurrentUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/config/RestAuthenticationEntryPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/config/SetupDataLoader$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/config/SetupDataLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/config/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/controller/AuthController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/dto/ApiResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/dto/JwtAuthenticationResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/dto/LocalUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/dto/LoginRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/dto/SignUpRequest$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/dto/SignUpRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/dto/SocialProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/dto/UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/entity/DatabaseSequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/exception/BadRequestException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/exception/OAuth2AuthenticationProcessingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/exception/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/exception/UserAlreadyExistAuthenticationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/exception/UserNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/exception/handler/RestResponseEntityExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/repo/RoleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/repo/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/security/jwt/TokenAuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/security/jwt/TokenProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/security/oauth2/CustomOAuth2UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/security/oauth2/CustomOidcUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/security/oauth2/HttpCookieOAuth2AuthorizationRequestRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/security/oauth2/OAuth2AccessTokenResponseConverterWithDefaults.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/security/oauth2/OAuth2AuthenticationFailureHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/security/oauth2/OAuth2AuthenticationSuccessHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/security/oauth2/user/FacebookOAuth2UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/security/oauth2/user/GithubOAuth2UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/security/oauth2/user/GoogleOAuth2UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/security/oauth2/user/LinkedinOAuth2UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/security/oauth2/user/OAuth2UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/security/oauth2/user/OAuth2UserInfoFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/service/LocalUserDetailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/service/SequenceGeneratorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/service/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/util/CookieUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/util/GeneralUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/validator/PasswordMatches.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/courzelo/courzelo_core/auth/validator/PasswordMatchesValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/courzelo/courzelo_core/AuthenticationApplicationTests.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2ALPH2FaBplHWdqyA42gabiFu5w" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="AuthenticationApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.courzelo.courzelo_core.AuthenticationApplication" />
+      <module name="Authentication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.courzelo.courzelo_core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AuthenticationApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f9f7325-9f05-4f64-b6cd-97ff58906241" name="Changes" comment="" />
+      <created>1654785810677</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654785810677</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
