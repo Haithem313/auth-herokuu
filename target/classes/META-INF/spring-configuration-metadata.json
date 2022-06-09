@@ -1,0 +1,39 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "com.courzelo.courzelo_core.auth.config.AppProperties",
+      "sourceType": "com.courzelo.courzelo_core.auth.config.AppProperties"
+    },
+    {
+      "name": "app.auth",
+      "type": "com.courzelo.courzelo_core.auth.config.AppProperties$Auth",
+      "sourceType": "com.courzelo.courzelo_core.auth.config.AppProperties",
+      "sourceMethod": "getAuth()"
+    },
+    {
+      "name": "app.oauth2",
+      "type": "com.courzelo.courzelo_core.auth.config.AppProperties$OAuth2",
+      "sourceType": "com.courzelo.courzelo_core.auth.config.AppProperties",
+      "sourceMethod": "getOauth2()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.auth.token-expiration-msec",
+      "type": "java.lang.Long",
+      "sourceType": "com.courzelo.courzelo_core.auth.config.AppProperties$Auth"
+    },
+    {
+      "name": "app.auth.token-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.courzelo.courzelo_core.auth.config.AppProperties$Auth"
+    },
+    {
+      "name": "app.oauth2.authorized-redirect-uris",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.courzelo.courzelo_core.auth.config.AppProperties$OAuth2"
+    }
+  ],
+  "hints": []
+}
